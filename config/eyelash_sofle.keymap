@@ -4,6 +4,7 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -81,11 +82,11 @@
 
         layer1 {
             bindings = <
-&trans  &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)      &kp LS(POUND)  &kp LS(DOLLAR)  &kp LS(PERCENT)       &mmv MOVE_UP     &kp CARET         &kp LS(AMPERSAND)  &kp LS(ASTERISK)   &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &trans
-&trans  &kp GRAVE            &kp LC(RIGHT_ARROW)  &trans         &trans          &trans                &mmv MOVE_DOWN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F11            &kp F12                   &kp MINUS                  &kp PLUS
-&trans  &kp HOME             &kp END              &kp EQUAL      &kp UNDERSCORE  &kp PIPE              &mmv MOVE_LEFT   &kp LEFT_ARROW    &kp DOWN_ARROW     &kp UP_ARROW       &kp RIGHT_ARROW           &kp COLON                  &kp DOUBLE_QUOTES
-&trans  &kp TILDE            &trans               &trans         &trans          &kp LC(LEFT_ARROW)    &mmv MOVE_RIGHT  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)  &kp LS(GREATER_THAN)      &kp LS(QUESTION)           &kp BACKSLASH
-&trans  &trans               &trans               &trans         &trans          &trans                &mkp LCLK        &kp ENTER         &kp SPACE          &trans             &kp RSHIFT                &trans
+&trans       &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)      &kp LS(POUND)  &kp LS(DOLLAR)  &kp LS(PERCENT)       &mmv MOVE_UP     &kp CARET         &kp LS(AMPERSAND)  &kp LS(ASTERISK)   &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &trans
+&kp LS(TAB)  &kp GRAVE            &kp LC(RIGHT_ARROW)  &trans         &trans          &trans                &mmv MOVE_DOWN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F11            &kp F12                   &kp MINUS                  &kp PLUS
+&trans       &kp HOME             &kp END              &kp EQUAL      &kp UNDERSCORE  &kp PIPE              &mmv MOVE_LEFT   &kp LEFT_ARROW    &kp DOWN_ARROW     &kp UP_ARROW       &kp RIGHT_ARROW           &kp COLON                  &kp DOUBLE_QUOTES
+&trans       &kp TILDE            &trans               &trans         &trans          &kp LC(LEFT_ARROW)    &mmv MOVE_RIGHT  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)  &kp LS(GREATER_THAN)      &kp LS(QUESTION)           &kp BACKSLASH
+&trans       &trans               &trans               &trans         &trans          &trans                &mkp LCLK        &kp ENTER         &kp SPACE          &trans             &kp RSHIFT                &trans
             >;
 
             display-name = "layer1";
@@ -94,11 +95,11 @@
 
         layer2 {
             bindings = <
-&trans      &kp F1         &kp F2     &kp F3     &kp F4        &kp F5       &mmv MOVE_UP     &kp F6          &kp F7          &kp F8        &kp F9     &kp F10  &kp F11
-&trans      &kp LC(LS(E))  &trans     &trans     &kp LC(U)     &trans       &mmv MOVE_DOWN   &trans          &trans          &trans        &trans     &trans   &kp F12
-&trans      &kp LC(RS(A))  &trans     &trans     &trans        &kp PG_DN    &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans   &kp PSCRN
-&trans      &kp LC(Z)      &kp LC(X)  &kp LC(C)  &kp LC(V)     &trans       &mmv MOVE_RIGHT  &trans          &trans          &trans        &trans     &trans   &trans
-&kp C_MUTE  &trans         &trans     &trans     &kp LEFT_WIN  &trans       &mkp LCLK        &trans          &trans          &trans        &trans     &trans
+&bt BT_SEL 0  &kp F1     &kp F2     &kp F3     &kp F4        &kp F5       &mmv MOVE_UP     &kp F6          &kp F7          &kp F8        &kp F9     &kp F10  &kp F11
+&bt BT_SEL 1  &trans     &trans     &trans     &trans        &trans       &mmv MOVE_DOWN   &trans          &trans          &trans        &trans     &trans   &kp F12
+&trans        &kp LC(A)  &trans     &trans     &trans        &kp PG_DN    &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans   &kp PSCRN
+&trans        &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)     &trans       &mmv MOVE_RIGHT  &trans          &trans          &trans        &trans     &trans   &trans
+&kp C_MUTE    &trans     &trans     &trans     &kp LEFT_WIN  &trans       &mkp LCLK        &trans          &trans          &trans        &trans     &trans
             >;
 
             display-name = "layer2";
