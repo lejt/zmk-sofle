@@ -157,7 +157,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - Ctl+A
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -170,7 +170,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:printer-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
