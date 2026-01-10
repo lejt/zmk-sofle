@@ -103,7 +103,7 @@
             >;
 
             display-name = "layer2";
-            sensor-bindings = <&inc_dec_kp LG(TAB) LC(LS(LG(TAB)))>;
+            sensor-bindings = <&inc_dec_kp LG(TAB) LG(LS(TAB))>;
         };
 
         layer3 {
