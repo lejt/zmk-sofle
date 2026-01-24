@@ -155,7 +155,7 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BT CLR ALL
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+A
