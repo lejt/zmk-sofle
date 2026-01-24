@@ -147,8 +147,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+$$mdi:keyboard-tab$$
-  - Gui+$$mdi:apple-keyboard-option$$
+  - Ctl+$$mdi:keyboard-tab$$
+  - Ctl+$$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
