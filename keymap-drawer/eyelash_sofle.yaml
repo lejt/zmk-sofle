@@ -160,9 +160,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+A
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+$$mdi:keyboard-tab$$
+  - Gui+$$mdi:apple-keyboard-option$$
   - Ctl+L
-  - Ctl+G
+  - Gui+G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
