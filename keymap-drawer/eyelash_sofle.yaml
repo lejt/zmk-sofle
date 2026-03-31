@@ -159,7 +159,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+A
-  - Ctl+S
+  - Ctl+Alt+B
   - Ctl+D
   - Ctl+L
   - Gui+G
