@@ -77,11 +77,11 @@
 
         layer0 {
             bindings = <
-&kp ESC           &kp N1    &kp N2         &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB           &kp Q     &kp W          &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
-&kp LSHFT         &kp A     &kp S          &kp D   &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LEFT_CONTROL  &kp Z     &kp X          &kp C   &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
-&kp C_MUTE        &kp LGUI  &kp LA(LCTRL)  &mo 1   &mo 2   &kp SPACE    &kp ENTER        &kp ENTER  &mo 1   &kp BSPC   &trans   &trans
+&kp ESC           &kp N1    &kp N2        &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8     &kp N9   &kp N0    &kp BACKSPACE
+&kp TAB           &kp Q     &kp W         &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSLH
+&kp LSHFT         &kp A     &kp S         &kp D   &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LEFT_CONTROL  &kp Z     &kp X         &kp C   &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
+&kp C_MUTE        &kp LGUI  &kp LEFT_ALT  &mo 1   &mo 2   &kp SPACE    &kp ENTER        &kp ENTER  &mo 1   &kp BSPC   &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -91,7 +91,7 @@
         layer_1 {
             bindings = <
 &trans       &kp LS(EXCL)     &kp LS(AT)        &kp LS(POUND)  &kp LS(DLLR)   &kp LS(PRCNT)    &mmv MOVE_UP     &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &trans           &trans         &trans
-&kp LS(TAB)  &kp GRAVE        &kp TILDE         &kp LC(LEFT)   &kp LC(RIGHT)  &kp PG_UP        &mmv MOVE_DOWN   &kp LS(LBRC)   &kp LS(RBRC)  &kp UP        &arrow_function  &kp MINUS      &kp LS(PLUS)
+&kp LS(TAB)  &kp GRAVE        &kp TILDE         &kp LA(LEFT)   &kp LA(RIGHT)  &kp PG_UP        &mmv MOVE_DOWN   &kp LS(LBRC)   &kp LS(RBRC)  &kp UP        &arrow_function  &kp MINUS      &kp LS(PLUS)
 &trans       &kp HOME         &kp END           &kp UNDER      &kp EQUAL      &kp PIPE         &mmv MOVE_LEFT   &trans         &kp LEFT      &kp DOWN      &kp RIGHT        &kp LS(COLON)  &kp LS(DQT)
 &trans       &rgb_ug RGB_OFF  &kp LEFT_CONTROL  &kp LEFT_WIN   &kp LEFT_ALT   &kp PAGE_DOWN    &mmv MOVE_RIGHT  &kp LBKT       &kp RBKT      &kp LS(LT)    &kp LS(GT)       &kp LS(QMARK)  &kp BSLH
 &kp C_MUTE   &rgb_ug RGB_ON   &rgb_ug RGB_EFF   &trans         &trans         &trans           &mkp LCLK        &trans         &trans        &trans        &trans           &trans
@@ -103,11 +103,11 @@
 
         layer_2 {
             bindings = <
-&trans  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5       &mmv MOVE_UP     &kp F6                    &kp F7                     &kp F8    &kp F9     &kp F10  &trans
-&trans  &trans     &kp LCTRL  &kp LGUI   &kp LALT   &kp PG_UP    &mmv MOVE_DOWN   &bt BT_SEL 0              &bt BT_SEL 1               &kp UP    &kp F11    &kp F12  &bt BT_CLR
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(L)  &kp LC(G)    &mmv MOVE_LEFT   &bt BT_SEL 2              &kp LEFT                   &kp DOWN  &kp RIGHT  &trans   &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &mmv MOVE_RIGHT  &kp LC(LA(LEFT_BRACKET))  &kp LC(LA(RIGHT_BRACKET))  &trans    &trans     &trans   &trans
-&trans  &trans     &trans     &trans     &trans     &trans       &mkp LCLK        &trans                    &trans                     &trans    &trans     &trans
+&trans  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5       &mmv MOVE_UP     &kp F6        &kp F7                     &kp F8    &kp F9     &kp F10  &trans
+&trans  &trans     &kp LCTRL  &kp LGUI   &kp LALT   &trans       &mmv MOVE_DOWN   &bt BT_SEL 0  &bt BT_SEL 1               &kp UP    &kp F11    &kp F12  &bt BT_CLR
+&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(L)  &kp LA(G)    &mmv MOVE_LEFT   &bt BT_SEL 2  &kp LEFT                   &kp DOWN  &kp RIGHT  &trans   &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &mmv MOVE_RIGHT  &kp LC(K)     &kp LC(LS(RIGHT_BRACKET))  &trans    &trans     &trans   &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &mkp LCLK        &trans        &trans                     &trans    &trans     &trans
             >;
 
             display-name = "layer2";
