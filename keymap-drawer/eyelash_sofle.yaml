@@ -76,8 +76,8 @@ layers:
   - Sft+^
   - Sft+&
   - Sft+*
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+(
+  - Sft+)
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab-reverse$$
   - {t: '`', s: '~'}
@@ -177,7 +177,7 @@ layers:
   - Ctl+V
   - Ctl+B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - '&fold_sub_region'
+  - {t: 'Ctl+Alt+[', s: 'Ctl+Alt+{'}
   - {t: 'Ctl+Alt+]', s: 'Ctl+Alt+}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
