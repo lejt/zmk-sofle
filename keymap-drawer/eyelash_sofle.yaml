@@ -162,7 +162,7 @@ layers:
   - Ctl+S
   - Ctl+D
   - Ctl+L
-  - Alt+G
+  - Gui+G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:arrow-left-bold$$
@@ -177,8 +177,8 @@ layers:
   - Ctl+V
   - Ctl+B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - Ctl+K
-  - {t: 'Ctl+Sft+]', s: 'Ctl+Sft+}'}
+  - '&fold_sub_region'
+  - {t: 'Ctl+Gui+]', s: 'Ctl+Gui+}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
