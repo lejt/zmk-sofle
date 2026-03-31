@@ -178,7 +178,7 @@ layers:
   - Ctl+B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '&fold_sub_region'
-  - {t: 'Ctl+Gui+]', s: 'Ctl+Gui+}'}
+  - {t: 'Ctl+Alt+]', s: 'Ctl+Alt+}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
